@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-
 @author: Nattapat Tangniyom 640631032
 """
 def complay(n,m):
      n = n-m
-     print("Computer, take",m)
+     print("I,smart computer, take",m)
      if(n==0):
-        print(str + " win")
+        print(str + " win (I,smart computer, am sad T_T)")
      else:
         print("There are ",n,"sticks in the pile.")
      return n
@@ -25,7 +24,7 @@ while n > 0:
     print("There are no enough sticks to take.")
   elif n-m==0:
     n = n-m
-    print("Computer win")
+    print("I,smart computer win !!!!")
   else:
     n = n-m
     print("There are ",n,"sticks in the pile.")
@@ -41,5 +40,5 @@ while n > 0:
     else:
         if n-1==0:
            n = n-1
-           print("Computer, take a last sticks")
-           print(str + " win")
+           print("I,smart computer, take a last sticks")
+           print(str + " win (I,smart computer, am sad T_T)")
