@@ -3,7 +3,6 @@
 
 @author: Nattapat Tangniyom 640631032
 """
-import random
 def complay(n,m):
      n = n-m
      print("Computer, take",m)
@@ -32,15 +31,15 @@ while n > 0:
     print("There are ",n,"sticks in the pile.")
     if n>1:
         if (n+2-1)%3==0:
-            n = complay(n,1)
+           n = complay(n,1)
         elif (n+2-2)%3==0:
-            n = complay(n,2)
+           n = complay(n,2)
         elif n%2==0:
            n = complay(n,1)
         elif n%2!=0:
            n = complay(n,2)
     else:
         if n-1==0:
-            n = n-1
-            print("Computer, take a last sticks")
-            print(str + " win")
+           n = n-1
+           print("Computer, take a last sticks")
+           print(str + " win")
